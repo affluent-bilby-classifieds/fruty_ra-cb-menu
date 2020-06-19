@@ -2,7 +2,7 @@ Please note: Although I am a seasoned tech guy I am quite a notive as a develope
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
 
-Next I will try to add a json field to postgres and allow the contents to be editted. This will be a menu for a real-life burger restaurant.
+Next I will try to add a json field to postgres and allow the contents to be edited. This will be a menu for a real-life burger restaurant.
 
 Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
