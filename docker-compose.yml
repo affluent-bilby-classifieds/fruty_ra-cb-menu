@@ -25,9 +25,10 @@ services:
 
   back:
     image: node:10
-    command: ["/bin/sh", "-c","cd /home/app && npm run dev"]
+    #command: ["/bin/sh", "-c","cd /home/app && npm run dev"]
     volumes:
      - ./back:/home/app
+     - ./build.sh:/build.sh
     environment:
       PGUSER: ${PG_USER}
       PGPASSWORD: ${PG_PASSWORD}
@@ -35,6 +36,7 @@ services:
       PGHOST: postgres
     links:
       - postgres
+    entrypoint:  "/build.sh"   
 
 
   postgres:
