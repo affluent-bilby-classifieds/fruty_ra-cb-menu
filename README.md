@@ -23,6 +23,10 @@ docker-compose run back /bin/sh
 docker-compose up -d
 
 Create a new user:
+
+```
+curl -X POST http://localhost:3000/api/create_user -H 'Cache-Control: no-cache' -H 'Content-Type: application/json' -d '{ "email": "test@test.fr", "password": "Password1" }'
+```
 curl -X POST \
   http://localhost:3000/api/create_user \
   -H 'Cache-Control: no-cache' \
