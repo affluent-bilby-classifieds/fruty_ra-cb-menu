@@ -12,14 +12,17 @@ services:
       - back
 
   front:
-    image: node:10
-    command: ["/bin/sh", "-c","cd /home/app && npm run start"]
+    image: node:10 
     ports:
       - "3001:3000"
     environment:
       REACT_EDITOR: atom
     volumes:
      - ./front:/home/app
+     - ./build.sh:/build.sh
+     
+     ENTRYPOINT:  "/build.sh" 
+
 
   back:
     image: node:10
