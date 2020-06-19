@@ -18,7 +18,7 @@ git clone https://github.com/affluent-bilby-classifieds/fruty_ra-cb-menu.git
 change to the directory:
 
 ```
-cd ruty_ra-cb-menu
+cd fruty_ra-cb-menu
 ```
 
 
