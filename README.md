@@ -8,20 +8,23 @@ Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
 ### Procedure
 
-- git clone repo and cd into it
+git clone repo and cd into it
 
-- docker-compose up -d
-
-
+```
+docker-compose up -d
+```
 
 Install dependencies for front and back:
 
+```
 docker-compose run front /bin/sh
-
+```
+```
 docker-compose run back /bin/sh
-
+```
+```
 docker-compose up -d
-
+```
 Create a new user:
 
 ```
