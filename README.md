@@ -8,7 +8,25 @@ Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
 ### Procedure
 
-git clone repo and cd into it
+git clone repo and cd into it.
+In this case:
+
+```
+git clone https://github.com/affluent-bilby-classifieds/fruty_ra-cb-menu.git
+```
+
+change to the directory:
+
+```
+cd ruty_ra-cb-menu
+```
+
+
+You may need to add execute permission to build.sh
+
+```
+chmod +x build.sh
+```
 
 ```
 docker-compose up -d
@@ -22,6 +40,8 @@ docker-compose run front /bin/sh
 ```
 docker-compose run back /bin/sh
 ```
+Start-docker containers again:
+
 ```
 docker-compose up -d
 ```
