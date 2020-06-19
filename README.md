@@ -1,3 +1,9 @@
+Please note. Although I am a seasoned tech guy I am quite a notive as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
+
+I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
+
+Next I will try to add a json field to postgres and allow the contents to be editted. This will be a menu for a real-life burger resaturant.
+
 Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
 ### Procedure
@@ -6,35 +12,13 @@ Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
 - docker-compose up -d
 
-Create DB table:
 
-docker-compose exec postgres /bin/bash
-
-psql --username=fruty
-
-\i /init/init.sql
-
-\q
-
-exit
 
 Install dependencies for front and back:
 
-docker-compose run front /bin/sh
 
-cd /home/app
-
-npm install
-
-exit
 
 docker-compose run back /bin/sh
-
-cd /home/app
-
-npm install
-
-exit
 
 docker-compose up -d
 
