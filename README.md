@@ -1,4 +1,4 @@
-Please note: Although I am a seasoned tech guy I am quite a notive as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
+Please note: Although I am a seasoned tech guy I am quite a notice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
 
