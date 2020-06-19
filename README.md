@@ -8,7 +8,8 @@ Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
 
 ### Procedure
 
-git clone repo 
+The first step is to 'git clone' the repo.
+
 In this case:
 
 ```
