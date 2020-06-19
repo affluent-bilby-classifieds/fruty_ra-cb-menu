@@ -27,6 +27,7 @@ You may need to add execute permission to build.sh
 ```
 chmod +x build.sh
 ```
+In the next part we load the docker-compose.yml file to build our containers.
 
 ```
 docker-compose up -d
