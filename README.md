@@ -7,7 +7,10 @@ Next I will try to add a json field to postgres and allow the contents to be edi
 This project uses ra-data-simple-rest for the data privider. That wasn't obvious to me at first.
 https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest
 
+Source code in the readme is very similar to the code used here.
+
 Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
+
 
 ### Procedure
 
