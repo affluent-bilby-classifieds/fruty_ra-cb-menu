@@ -22,21 +22,19 @@ services:
      - ./build.sh:/build.sh
     entrypoint:  "/build.sh" 
 
-
   back:
-    image: node:10
-    #command: ["/bin/sh", "-c","cd /home/app && npm run dev"]
-    volumes:
-     - ./back:/home/app
-     - ./build.sh:/build.sh
-    environment:
+   image: node:10
+   volumes:
+   - ./back:/home/app
+   - ./build.sh:/build.sh
+   environment:
       PGUSER: ${PG_USER}
       PGPASSWORD: ${PG_PASSWORD}
       PGDATABASE: ${PG_DATABASE}
       PGHOST: postgres
-    links:
+      links:
       - postgres
-    entrypoint:  "/build.sh"   
+  entrypoint:  "/build.sh"   
 
 
   postgres:
@@ -46,10 +44,9 @@ services:
       POSTGRES_USER: ${PG_USER}
       POSTGRES_PASSWORD: ${PG_PASSWORD}
     volumes:
-      - data:/var/lib/postgresql/data
-     #- ./db:/init
-     - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
-     #https://gist.github.com/onjin/2dd3cc52ef79069de1faa2dfd456c945
+        - data:/var/lib/postgresql/data
+        - ./db/init/init.sql:/docker-entrypoint-initdb.d/init.sql
+       #https://gist.github.com/onjin/2dd3cc52ef79069de1faa2dfd456c945
 
   pgweb:
     image: sosedoff/pgweb
