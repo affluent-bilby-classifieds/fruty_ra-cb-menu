@@ -4,7 +4,7 @@ I have tried to automate the building of the docker containers by adding .sh scr
 
 Next I will try to add a json field to postgres and allow the contents to be edited. This will be a menu for a real-life burger restaurant.
 
-This project uses ra-data-simple-rest as the backend. That wasn't obvious to me at first.
+This project uses ra-data-simple-rest for the data privider. That wasn't obvious to me at first.
 https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest
 
 Blog post: https://fruty.io/2020/01/15/building-business-apps-with-react-admin/
