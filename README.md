@@ -1,4 +1,5 @@
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
+In fact, there is currently an issue with the docker-compose.yml file for this here fork so it won't build. I plan to fix this soon.
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
 
