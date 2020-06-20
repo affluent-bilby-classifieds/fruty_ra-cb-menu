@@ -40,7 +40,7 @@ services:
       POSTGRES_PASSWORD: '${PG_PASSWORD}'
     volumes:
       - data:/var/lib/postgresql/data
-      - ./db/init/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
   pgweb:
     image: sosedoff/pgweb
     command: pgweb --readonly --bind=0.0.0.0 --listen=8081
