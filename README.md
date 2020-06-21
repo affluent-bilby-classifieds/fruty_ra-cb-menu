@@ -188,7 +188,7 @@ pg_dump -d menudb -U fruty -t menu > file.sql
 then
 
 ```
-docker cp  fruty_ra-cb-menu_postgres_1:/file.sql .
+docker cp fruty_ra-cb-menu_postgres_1:/file.sql .
 ```
 
 assuminging fruty_ra-cb-menu_postgres_1 is the name of your postgres docker container. 
