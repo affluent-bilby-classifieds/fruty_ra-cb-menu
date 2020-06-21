@@ -173,6 +173,18 @@ Mexican Soda", "category": "Drinks"}
 (34 rows)
 
 ```
+Don't forget to quit: 
+
+```
+\q
+```
+
+
+if you need to export the database such as to send to a third party provider:
+
+```
+pg_dump -d menudb -U fruty -t menu > file.sql
+```
 
 ### Verifications
 
