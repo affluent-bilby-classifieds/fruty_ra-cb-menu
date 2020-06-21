@@ -1,0 +1,290 @@
+[
+    {
+        "id": 1,
+        "title": "Compton rootbeer",
+        "category": "Drinks",
+        "price": "7.5",
+        "img": "./images/item-1.jpeg",
+        "desc": "AW Rootbear with a scoop of delicious icecream."
+    },
+    {
+        "id": 2,
+        "title": "Vegan Paradise",
+        "category": "Burgers",
+        "price": 13.99,
+        "img": "./images/item-2.jpeg",
+        "desc": "Chickpea Pattie, Avocardo, Lettuce, Tomato, BBQ sauce, onion, Sweet Chilli. Vegan mayo."
+    },
+    {
+        "id": 3,
+        "title": "Jarritos Mexican Soda",
+        "category": "Drinks",
+        "price": 6.99,
+        "img": "./images/item-3.jpeg",
+        "desc": "The sweetest and most delicious Mexican soda. Loved by Gringos. Great with burgers."
+    },
+    {
+        "id": 4,
+        "title": "lil Soda",
+        "category": "Drinks",
+        "price": 0,
+        "img": "./images/item-4.jpeg",
+        "desc": "Dr Pepper, Purple Drank (Cherry Coke), A&W Root Beer, Jarritos Mexican Soda bottles. 375ml cans."
+    },
+    {
+        "id": 5,
+        "title": "Compton Burger",
+        "category": "Burgers",
+        "price": 0.00,
+        "img": "./images/item-5.jpeg",
+        "desc": "Beef Pattie, Lettuce, Tomato, 2 slices of American Cheese, Grilled Onions, Pickles. Compton Burger Sauce. Double pattie $4 extra. ",
+        "desc2": "Double pattie $4 extra." 
+    },
+    {
+        "id": 6,
+        "title": "Classic Wrap",
+        "category": "Wraps",
+        "price": 18.99,
+        "img": "./images/item-6.jpeg",
+        "desc": "Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday"
+    },
+    {
+        "id": 7,
+        "title": "Chicken Tender Wrap",
+        "category": "Wraps",
+        "price": 8.99,
+        "img": "./images/item-7.jpeg",
+        "desc": "carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird "
+    },
+    {
+        "id": 8,
+        "title": "Cheezy-E",
+        "category": "Burgers",
+        "price": 12.99,
+        "img": "./images/item-8.jpeg",
+        "desc": "Beef Pattie, Pickles, 2 Slices of American Cheese, Ketchup, Beef Pattie, Lettuce, Tomato, Grilled Onion, Jalapeños, Grilled onion, mustard."
+    },
+    {
+        "id": 9,
+        "title": "Smashed Falafel",
+        "category": "Wraps",
+        "price": 16.99,
+        "img": "./images/item-9.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 10,
+        "title": "Onion Rings",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-10.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 11,
+        "title": "Dr Drecon",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-11.jpeg",
+        "desc": "Beef Pattie, Crispy Bacon, 2 Slices of American Cheese, Mayo, BBQ sauce."
+    },
+    {
+        "id": 12,
+        "title": "Marylin Bunroe",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-12.jpeg",
+        "desc": "2 Crispy Chicken Tenders (OG or Spicy) served with American Cheese, Lettuce, Tomato, Pickles, Mayo."
+    },
+    {
+        "id": 13,
+        "title": "Shakes",
+        "category": "Drinks",
+        "price": 0,
+        "img": "./images/item-13.jpeg",
+        "desc": "Delicious Shakes available in Chocolate, Strawberry and Vanilla."
+    },
+
+    {
+        "id": 14,
+        "title": "Fries",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-14.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+
+    {
+        "id": 15,
+        "title": "10 Chicken Nuggets",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-15.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 16,
+        "title": "2 Chicken Tenders",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-16.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 17,
+        "title": "Fried Chicken Wings",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-17.jpeg",
+        "desc": "Available in OG or Spicy. 3 pieces, 6 pieces or 10 pieces."
+    },
+    {
+        "id": 18,
+        "title": "Sweet Potato Fries",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-18.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 19,
+        "title": "Coleslaw",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-19.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 20,
+        "title": "Bacon & Egg Muffin",
+        "category": "Breakfast Classics",
+        "price": 0,
+        "img": "./images/item-20.jpeg",
+        "desc": "Comes with your choice of ketchup or barbeqeue sauce."
+    },
+    {
+        "id": 21,
+        "title": "Cypress Hill Salad",
+        "category": "West Sides",
+        "price": 0,
+        "img": "./images/item-21.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 22,
+        "title": "Hustle",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-22.jpeg",
+        "desc": "Beef Pattie, Lettuce, Tomato, American Cheese, Pickles, Grilled Onion, Mayo & Ketchup."
+    },
+    {
+        "id": 23,
+        "title": "LIT",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-23.jpeg",
+        "desc": "Beef Pattie, Lettuce, Tomato, Grilled Onion, Jalapeños, 2 Slices of American Cheese. Hot Chilli sauce."
+    },
+    {
+        "id": 24,
+        "title": "Coolio Killer 100",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-24.jpeg",
+        "desc": "Lettuce, Tomato, Crispy Bacon, Two Slices of American Cheese, Onion Rings, Brisket, 100% Beef Patty topped with Mom's Cheesy gravy."
+    },
+    {
+        "id": 25,
+        "title": "Burger Extras",
+        "category": "Burgers",
+        "price": 0,
+        "img": "./images/item-25.jpeg",
+        "desc": "Mayo, Compton Burger Sauce, Ketchup, Hot Chilli Sauce, Musatard, 1 Lettuce, Pickles, Tomatoes, Grilled Onions, Onions, Jalapeños, American Cheese, Bacon, Egg"
+    },
+    {
+        "id": 26,
+        "title": "Wrap Extras",
+        "category": "Wraps",
+        "price": 0,
+        "img": "./images/item-26.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 27,
+        "title": "Make it a combo",
+        "category": "Burgers",
+        "price": 0.00,
+        "img": "./images/item-27.jpeg",
+        "desc": "Include Fries and Drink with your burger.",
+        "desc2": "Small $0 Big $0." 
+    },
+    {
+        "id": 28,
+        "title": "Dipping sauses",
+        "category": "West Sides",
+        "price": 1,
+        "img": "./images/item-28.jpeg",
+        "desc": "Ketchup, Mayo, Compton Burger Sauce, BBQ, SweetChilli, Mon's Cheesy Gravy."
+    },
+    {
+        "id": 29,
+        "title": "Californian Dream",
+        "category": "Breakfast Classics",
+        "price": 0,
+        "img": "./images/item-29.jpeg",
+        "desc": "Bacon & Egg roll served with Tomato, American Cheese, Baby Spinach, Tomato Relish served on a Potato Bun."
+    },
+    {
+        "id": 30,
+        "title": "Bacon & egg burger",
+        "category": "Breakfast Classics",
+        "price": 0,
+        "img": "./images/item-30.jpeg",
+        "desc": "Served on a sesame seed bun with your choice of chicken, cheese, ketchup or BBQ sauce."
+    },
+    {
+        "id": 31,
+        "title": "Bacon & egg wrap",
+        "category": "Breakfast Classics",
+        "price": 0,
+        "img": "./images/item-31.jpeg",
+        "desc": "Bacon & egg in fresh pita wrap. Your choice of ketchup or HP sauce."
+    },
+    {
+        "id": 34,
+        "title": "Classic Cheese",
+        "category": "Breakfast Toasties",
+        "price": 0,
+        "img": "./images/item-34.jpeg",
+        "desc": "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing."
+    },
+    {
+        "id": 40,
+        "title": "Flat White",
+        "category": "Coffee",
+        "price": 0,
+        "img": "./images/item-40.jpeg"
+        
+    },
+    {
+        "id": 41,
+        "title": "B.I.G Soda",
+        "category": "Drinks",
+        "price": 0,
+        "img": "./images/item-41.jpeg",
+        "desc": "800ml cans of soda. Flavors to be"
+    }
+    
+    
+
+    
+
+
+
+
+
+
+
+
+]
