@@ -79,9 +79,7 @@ Inside the container now run:
 
 
 
-```
-psql -h localhost -p 5432 menudb -U fruty -c "CREATE TABLE menu (data jsonb);"
-```
+
 
 ```
 psql --username=fruty
@@ -117,6 +115,9 @@ Now we are loading the JSON into a Postgres JSONB column all thanks to the guide
 
 ```
 cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
+```
+```
+psql -h localhost -p 5432 menudb -U fruty -c "CREATE TABLE menu (data jsonb);"
 ```
 
 ```
