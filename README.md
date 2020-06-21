@@ -8,7 +8,7 @@ Next I will try to add a json field to postgres and allow the contents to be edi
 This project uses ra-data-simple-rest for the data privider. That wasn't obvious to me at first.
 https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest
 
-The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz] (https://github.com/auth0/express-jwt-authz)
+The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz](https://github.com/auth0/express-jwt-authz)
 
 Source code in the readme is very similar to the code used here.
 
