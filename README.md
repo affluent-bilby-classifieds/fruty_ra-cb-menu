@@ -124,6 +124,7 @@ psql -h localhost -p 5432 menudb -U fruty -c "CREATE TABLE menu (data jsonb);"
 cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
 ```
 
+Now we check the json has been imported to the jsonb table OK.
 
 ```
 psql --username=fruty
