@@ -5,7 +5,7 @@ I have tried to automate the building of the docker containers by adding .sh scr
 
 Next I will try to add a json field to postgres and allow the contents to be edited. This will be a menu for a real-life burger restaurant.
 
-This project uses [ra-data-simple-rest](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest)for the data privider. That wasn't obvious to me at first. You will find the source code in the readme is very similar to the code used here.
+This project uses [ra-data-simple-rest](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest) for the data privider. That wasn't obvious to me at first. You will find the source code in the readme is very similar to the code used here.
 
 The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz](https://github.com/auth0/express-jwt-authz)
 
