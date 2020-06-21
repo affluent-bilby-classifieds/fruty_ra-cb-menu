@@ -126,14 +126,16 @@ fruty=# \l
 ```
 fruty=# \c menudb
 You are now connected to database "postgres" as user "fruty".
-postgres=# \dt
+menudb=# \dt
        List of relations
  Schema | Name | Type  | Owner 
 --------+------+-------+-------
  public | menu | table | fruty
 (1 row)
+```
 
-postgres=# SELECT * FROM menu;
+```
+menudb=# SELECT * FROM menu;
                                                                                                                                            data                            
                                                                                                                
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
