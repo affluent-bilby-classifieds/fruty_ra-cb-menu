@@ -108,7 +108,8 @@ CREATE DATABASE
 ```
 
 ```
-grant all privileges on database menudb to fruty;
+fruty=# grant all privileges on database menudb to fruty;
+GRANT
 ```
 
 
@@ -116,7 +117,9 @@ grant all privileges on database menudb to fruty;
 cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
 ```
 
-
+```
+\q
+```
 
 
 
