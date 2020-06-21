@@ -86,7 +86,7 @@ apt-get install jq
 cd /init/json
 ```
 
-Now we loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28])
+Now we are loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28])
 
 ```
 cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
