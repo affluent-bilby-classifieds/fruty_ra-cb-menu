@@ -1,5 +1,5 @@
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
-In fact, there is currently an issue with the docker-compose.yml file for this here fork so it won't build. I plan to fix this soon.
+In fact, there is currently an issue with the docker-compose.yml file for this particular fork so it won't build. I plan to fix this soon.
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
 
@@ -8,7 +8,7 @@ Next I will try to add a json field to postgres and allow the contents to be edi
 This project uses ra-data-simple-rest for the data privider. That wasn't obvious to me at first.
 https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest
 
-The back-end uses https://github.com/auth0/express, https://github.com/auth0/express-jwt and https://github.com/auth0/express-jwt-authz
+The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz] (https://github.com/auth0/express-jwt-authz)
 
 Source code in the readme is very similar to the code used here.
 
