@@ -64,7 +64,32 @@ curl -X POST http://localhost:3000/api/create_user -H 'Cache-Control: no-cache' 
 You should get:
 {"result":"user created."}
 
+
+
+
 All containers should now be up, and you can go to http://localhost:3000 in your browser.
+
+Import the json table for the menu:
+
+```
+docker-compose exec postgres /bin/bash
+```
+Inside the container now run:
+
+```
+apt-get update
+```
+```
+apt-get install jq
+```
+```
+cd /init/json
+```
+```
+cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
+```
+
+
 
 ### Verifications
 
