@@ -76,21 +76,7 @@ docker-compose exec postgres /bin/bash
 ```
 Inside the container now run:
 
-```
-apt-get update
-```
-```
-apt-get install jq
-```
-```
-cd /init/json
-```
 
-Now we are loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28)
-
-```
-cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
-```
 
 
 ```
@@ -111,16 +97,37 @@ CREATE DATABASE
 fruty=# grant all privileges on database menudb to fruty;
 GRANT
 ```
+```
+\q
+```
+now back in bash we enter the following:
 
+
+```
+apt-get update
+```
+```
+apt-get install jq
+```
+```
+cd /init/json
+```
+
+Now we are loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28)
+
+```
+cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
+```
 
 ```
 cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
 ```
 
-```
-\q
-```
 
+```
+psql --username=fruty
+
+```
 
 
 ```
