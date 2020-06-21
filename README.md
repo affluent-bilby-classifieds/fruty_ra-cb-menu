@@ -98,15 +98,27 @@ psql -h localhost -p 5432 menudb -U fruty -c "CREATE TABLE menu (data jsonb);"
 ```
 
 ```
-cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
-```
-Now to check it:
-
-
-```
 psql --username=fruty
 
 ```
+
+```
+fruty=# create database menudb;
+CREATE DATABASE
+```
+
+```
+grant all privileges on database menudb to fruty;
+```
+
+
+```
+cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
+```
+
+
+
+
 
 ```
 fruty=# \l
