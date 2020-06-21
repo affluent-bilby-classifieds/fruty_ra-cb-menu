@@ -159,6 +159,7 @@ Mexican Soda", "category": "Drinks"}
 
 ### Notes
 
+We have just signed up for the public [Supabase.io](https://github.com/supabase/supabase) public alpha!
 
 - we use a nginx load-balancer in front of the dev server, so that we can easily route
 API calls to the back docker container, without messing with front dev server parameters.
