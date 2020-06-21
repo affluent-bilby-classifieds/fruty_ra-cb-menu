@@ -88,7 +88,7 @@ cd /init/json
 ```
 cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
 ```
-[https://dev.to/kiwicopple/loading-json-into-postgres-2l28] (thanks @kiwicopple) 
+[(thanks @kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28])
 
 
 ### Verifications
