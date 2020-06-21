@@ -85,10 +85,21 @@ apt-get install jq
 ```
 cd /init/json
 ```
+
+Now we loading the JSON into a Postgres JSONB column all thanks to the guide from: [(@kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28])
+
 ```
 cat menuItems.json | jq -cr '.[]' | sed 's/\\[tn]//g' > output.json
 ```
-[(thanks @kiwicopple)](https://dev.to/kiwicopple/loading-json-into-postgres-2l28])
+
+
+```
+psql -h localhost -p 5432 menudb -U fruty -c "CREATE TABLE menu (data jsonb);"
+```
+
+```
+cat output.json | psql -h localhost -p 5432 menudb -U fruty -c "COPY menu (data) FROM STDIN;"
+```
 
 
 ### Verifications
