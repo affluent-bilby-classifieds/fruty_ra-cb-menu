@@ -1,11 +1,13 @@
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
 In fact, there is currently an issue with the docker-compose.yml file for this particular fork so it won't build. I plan to fix this soon. I have also uploaded a docker-compose.json file. This is where we will experiment with auto-building. You can use either YAML or JSON files with docker.
 
-I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
+I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. Until this is fixed (and I will update the readme) when it is please refer to fruty's setup instructions and docker-compose file. 
 
 Next I will try to add a json field to postgres and allow the contents to be edited. This will be a menu for a real-life burger restaurant.
 
 This project uses [ra-data-simple-rest](https://github.com/marmelab/react-admin/tree/master/packages/ra-data-simple-rest) for the data privider. That wasn't obvious to me at first. You will find the source code in the readme is very similar to the code used here.
+
+We are going to add supabase as a data-provider too. That is on the future development roadmap.
 
 The back-end uses [Express](https://github.com/auth0/express), [Express-jwt](https://github.com/auth0/express-jwt) and [express-jwt-authz](https://github.com/auth0/express-jwt-authz)
 
