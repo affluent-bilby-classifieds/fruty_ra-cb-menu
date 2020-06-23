@@ -1,5 +1,5 @@
 Please note: Although I am a seasoned tech guy I am quite a novice as a developer. If you experience issues with this project please try the original at: https://github.com/francoisruty/fruty_react-admin
-In fact, there is currently an issue with the docker-compose.yml file for this particular fork so it won't build. I plan to fix this soon.
+In fact, there is currently an issue with the docker-compose.yml file for this particular fork so it won't build. I plan to fix this soon. I have also uploaded a docker-compose.json file. This is where we will experiment with auto-building. You can use either YAML or JSON files with docker.
 
 I have tried to automate the building of the docker containers by adding .sh scripts and hooks to the docker-compose.yml file. 
 
